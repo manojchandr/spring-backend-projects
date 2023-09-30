@@ -10,7 +10,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 
 @SpringBootApplication
-public class ImgurApiApplication implements CommandLineRunner {
+public class ImgurApiApplication {
 
 	Logger logger = LoggerFactory.getLogger(CommandLineRunner.class);
 
@@ -18,9 +18,5 @@ public class ImgurApiApplication implements CommandLineRunner {
 		SpringApplication.run(ImgurApiApplication.class, args);
 	}
 
-	@Override
-	public void run(String... args) throws Exception {
-
-	}
 	}
 
