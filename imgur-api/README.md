@@ -19,6 +19,9 @@ Alternatively you can use the Spring Boot Maven plugin like so:
 
 mvn spring-boot:run
 
+Integrated with OpenAPI, can be access using swagger url
+http://localhost:8080/swagger-ui/index.html
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
